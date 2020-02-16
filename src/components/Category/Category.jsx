@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Category.css'
+import './Category.sass'
 
 export class Category extends Component {
 

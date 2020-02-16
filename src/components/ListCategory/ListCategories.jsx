@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import './ListCategories.sass';
 import Category from './Category'
 
 

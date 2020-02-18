@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './ListCategories.sass';
-import Category from './Category'
+import Category from '../Category/Category'
 
 
 export class ListCategories extends Component {
@@ -19,5 +19,5 @@ export class ListCategories extends Component {
     }
 }
 
-
 export default ListCategories
+

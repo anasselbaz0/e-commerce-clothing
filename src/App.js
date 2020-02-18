@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { ListCategories } from './components/categories/ListCategories';
+import { ListCategories } from './components/ListCategories/ListCategories';
+import Navbar from './components/Navbar/Navbar';
 
 export class App extends React.Component {
 
@@ -35,7 +36,8 @@ export class App extends React.Component {
 
   render() {
       return (
-        <div className="App">
+        <div>
+          <Navbar />
           <div className='container'>
             <ListCategories categories={this.state.categories} />
           </div>
